@@ -1,0 +1,472 @@
+@media (max-width: 1399px){
+
+
+} 
+@media (max-width: 1199px){
+    li.nav-item {
+        padding-left: 32px;
+    }
+    .hero_title h5 {
+        font-size: 17.65px;
+    }
+    .hero_title h1 {
+        font-size: 84.3px;
+    }
+    .hero_title h3 {
+        font-size: 50.49px;
+    }
+    .offer {
+        width: 120px;
+        height: 120px;
+        top: 207px;
+    }
+    .discount {
+        width: 101px;
+        height: 101px;
+    }
+    .discount h2 {
+        font-size: 32.84px;
+    }
+    .discount strong {
+        font-size: 25.37px;
+    }
+    .discount span {
+        font-size: 25.4px;
+    }
+    .testy_burger_title p {
+        font-size: 13.67px;
+    }
+    .product_title p {
+        font-size: 12.67px;
+    }
+    .carousel_title {
+        padding: 5px 0;
+    }
+    .carousel_title h3 {
+        font-size: 26.17px;
+    }
+    .carousel_title h1 {
+        font-size: 32.47px;
+    }
+    .plate {
+        width: 165px;
+    }
+} 
+@media (max-width: 991px){
+
+    img.w-100.navbar_logo {
+        margin-bottom: 16px;
+    }
+    .bike_part {
+        padding-bottom: 9px;
+    }
+    .navbar>.container, .navbar>.container-fluid {
+        align-items: center;
+        flex-direction: column;
+    }
+    div#navbarSupportedContent {
+        align-items: center;
+    }
+    li.nav-item {
+        padding-left: 57px;
+    }    
+    .hero_title h5 {
+        font-size: 15.65px;
+        margin: 0 0 17px;
+    }
+    .hero_title h1 {
+        font-size: 67.3px;
+        margin: 0;
+    }
+    .hero_title h3 {
+        font-size: 45.49px;
+    }
+    .hero_image img {
+        margin-top: -55px;
+    }
+    .offer {
+        top: 152px;
+        left: -68px;
+    }
+    .banner_title {
+        top: 10px;
+        left: 16px;
+    }
+    .banner_title h3 {
+        font-size: 23px;
+    }
+    .banner_title h1 {
+        font-size: 29.67px;
+    }
+    .class1_title {
+        top: 10px;
+        left: 20px;
+    }
+    .class1_title h1 {
+        font-size: 29.66px;
+    }
+    .class2_title {
+        top: 13px;
+        left: 17px;
+    }
+    .class2_title h3 {
+        font-size: 23px;
+    }
+    .class2_title h1 {
+        font-size: 29.66px;
+    }
+    .testy_burger_title h3 {
+        padding: 11px;
+        margin-bottom: 17px;
+    }
+    .testy_burger_title h1 {
+        font-size: 43px;
+    }
+    .testy_burger_title p {
+        font-size: 12.67px;
+        padding: 0;
+    }
+    .product_title h1 {
+        font-size: 27.5px;
+    }
+    .product_title p {
+        font-size: 11.67px;
+    }
+    .carousel_title {
+        text-align: center;
+    }
+    .btn_custom {
+        font-size: 12.67px;
+    }
+    .carousel_title p {
+        font-size: 15px;
+    }
+    .carousel-indicators {
+        justify-content: center;
+    }
+    .singel_Burger {
+        width: 200px;
+    }
+    .singel_bottol {
+        top: 55px;
+        left: 446px;
+        transform: rotate(53deg);
+    }
+    .booking h1 {
+        font-size: 45px;
+    }
+    .form-control {
+        margin-bottom: 33px;
+    }
+    .px-5.row.mb-4.px-5 {
+        margin: 0px !important;
+    }
+} 
+@media (max-width: 767px){
+
+    .navbar>.container, .navbar>.container-fluid {
+        flex-direction: row;
+    }
+    a.navbar-brand {
+        width: 234px;
+    }
+    .hero_title {
+        margin-top: 31px;
+        text-align: center;
+    }
+    .hero_title h5 {
+        font-size: 22.65px;
+    }
+    .hero_title h1 {
+        font-size: 80.3px;
+    }
+    .hero_title h3 {
+        font-size: 45.49px;
+    }
+    .hero_image img {
+        margin-top: -120px;
+    }
+    .offer {
+        width: 120px;
+        height: 120px;
+        top: 203px;
+        left: 32px;
+        transform: rotate(-17deg);
+    }
+    .discount {
+        width: 101px;
+        height: 101px;
+        border: 2px dashed #fff;
+    }
+    .discount h2 {
+        font-size: 36.84px;;
+    }
+    .discount strong {
+        font-size: 22.37px;
+    }
+    .discount span {
+        font-size: 28.4px;
+    }
+    .banner_area .container .row .col-sm-12 {
+        padding-bottom: 20px;
+    }
+    .banner_title {
+        top: 20px;
+        left: 26px;
+    }
+    .banner_title h3 {
+        font-size: 25px;
+    }
+    .banner_title h1 {
+        font-size: 33.67px;
+    }
+    .class1_title {
+        top: 14px;
+        left: 22px;
+    }
+    .class1_title h3 {
+        font-size: 25px;
+        margin: 0;
+    }
+    .class1_title h1 {
+        font-size: 33.66px;
+    }
+    .class1 {
+        padding-bottom: 20px;
+    }
+    .class2_title {
+        top: 17px;
+        left: 21px;
+    }
+    .class2_title h3 {
+        font-size: 25px;
+    }
+    .class2_title h1 {
+        font-size: 33.66px;
+    }
+    .testy_burger_title h3 {
+        font-size: 24px;
+        margin-bottom: 17px;
+        padding: 8px;
+    }
+    .product_image img {
+        height: 231px;
+    }
+    .product_title h1 {
+        font-size: 35.5px;
+    }
+    .product_title p {
+        font-size: 14.67px;
+    }
+    .btn_custom {
+        font-size: 14.67px;
+    }
+    .carousel_title h3 {
+        font-size: 32.17px;
+    }
+    .carousel_title h1 {
+        font-size: 33.47px;
+    }
+    .carousel_title p {
+        font-size: 17px;
+    }
+    .booking h3 {
+        font-size: 27px;
+    }
+    .booking h1 {
+        font-size: 38px;
+    }
+    .form-control {
+        padding: 0.575rem 0.75rem;
+    }
+    .testy_burger_title h1 {
+        font-size: 38px;
+        margin-bottom: 18px;
+    }
+    .testy_burger_title p {
+        font-size: 14.67px;
+    }
+    .btn_custom {
+        margin-bottom: 50px;
+    }
+    .slider_area {
+        margin-top: 95px;
+    }
+    div#carouselExampleIndicators {
+        padding: 28px 28px 35px;
+    }
+    .carousel-indicators {
+        margin-left: 15%;
+    }
+    form.px-5 {
+        padding: 0px !important;
+    }
+    .singel_Burger {
+        top: -120px;
+        width: 171px;
+    }
+    .singel_bottol {
+        width: 198px;
+        top: 130px;
+        left: 184px;
+        transform: rotate(48deg);
+    }
+    .plate {
+        width: 196px;
+        top: 310px;
+    }
+    .slider_area .container-fluid.px-5 {
+        padding-left: 22px !important;
+        padding-right: 22px !important;
+    }
+} 
+@media (max-width: 575px){
+    .navbar-toggler {
+        padding: 0;
+    }
+    .navbar>.container, .navbar>.container-fluid {
+        justify-content: center;
+        flex-direction: column;
+    }
+    a.navbar-brand {
+        width: 168px;
+    }
+    .bike_part {
+        padding: 17px 0px;
+    }
+    .hero_title h5 {
+        font-size: 14.65px;
+    }
+    .hero_title h1 {
+        font-size: 36.3px;
+    }
+    .hero_title h3 {
+        font-size: 33.49px;
+    }
+    .hero_image img {
+        margin-top: -52px;
+        transform: scale(1.2);
+    }
+    .offer {
+        width: 96px;
+        height: 96px;
+        top: 84px;
+        left: -36px;
+        transform: rotate(-10deg);
+    }
+    .discount {
+        width: 77px;
+        height: 77px;
+    }
+    .discount h2 {
+        font-size: 31.84px;
+    }
+    .discount strong {
+        font-size: 17.37px;
+    }
+    .discount span {
+        font-size: 20.4px;
+    }
+    .banner_title {
+        top: 9px;
+        left: 13px;
+    }
+    .banner_title h3 {
+        font-size: 18px;
+    }
+    .banner_title h1 {
+        font-size: 19.67px;
+    }
+    .class1_title {
+        top: 8px;
+        left: 15px;
+    }
+    .class1_title h3 {
+        font-size: 15px;
+    }
+    .class1_title h1 {
+        font-size: 22.66px;
+    }
+    .class2_title {
+        top: 10px;
+        left: 11px;
+    }
+    .class2_title h3 {
+        font-size: 19px;
+    }
+    .class2_title h1 {
+        font-size: 22.66px;
+    }
+    .testy_burger_title h3 {
+        padding: 6px;
+        font-size: 18px;
+    }
+    .testy_burger_title h1 {
+        font-size: 31px;
+    }
+    .product_image img {
+        height: 210px;
+    }
+    .product_title h1 {
+        font-size: 24.5px;
+        margin-bottom: 4px;
+    }
+    .btn_custom {
+        font-size: 10.67px;
+    }
+    .slider_area {
+        margin-top: 48px;
+    }
+    .slider_area .container-fluid.px-5 {
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+    }
+    .carousel_title h3 {
+        font-size: 21.17px;
+    }
+    .carousel_title h1 {
+        font-size: 22.47px;
+    }
+    .carousel_title p {
+        font-size: 12px;
+    }
+    .carousel-indicators [data-bs-target].active {
+        width: 15px;
+        height: 15px;
+    }
+    .carousel-indicators [data-bs-target] {
+        width: 15px;
+        height: 15px;
+    }
+    .slider_area {
+        margin-bottom: 86px;
+    }
+    .singel_Burger {
+        top: -90px;
+        width: 116px;
+    }
+    .reservation_area .container.px-5 {
+        padding: 0px !important;
+    }
+    .booking h3 {
+        font-size: 24px;
+    }
+    .booking h1 {
+        font-size: 36px;
+    }
+    form .row.mb-4.px-5 {
+        padding: 0 !important;
+    }
+    .singel_bottol {
+        width: 79px;
+        top: -100px;
+        left: 205px;
+        transform: rotate(-18deg);
+    }
+    .plate {
+        width: 156px;
+        top: 441px;
+        opacity: 78%;
+    }
+
+} 

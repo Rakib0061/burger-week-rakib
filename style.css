@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;
+*/
+
+:root {
+    --alfa: 'Alfa Slab One', cursive;
+    --babes:  'Bebas Neue', cursive;
+    --montsrrat: 'Montserrat', sans-serif;
+    --red: #bf2222;
+    --defult_color: #3d2514;
+}
+body {
+    font-family: var(--montsrrat);
+    color: var(--defult_color);
+}
+header {
+    background-image: url(background.jpg);
+    margin-bottom: 75px;
+}
+.navbar>.container, .navbar>.container-fluid {
+    display: flex;
+    align-items: flex-start;
+}
+.img-fluid {
+    /* max-width: 100%; */
+    height: auto;
+    width: 100%;
+}
+div#navbarSupportedContent {
+    flex-direction: column;
+    align-items: end;
+}
+.bike_part {
+    justify-content: center;
+    padding-bottom: 25px;
+}
+.bike_part img{
+    padding-right: 10px;
+}
+.bike_part p {
+    margin: 0;
+    font-size: 15.67px;
+    font-family: var(--montsrrat)
+}
+li.nav-item {
+    padding-left: 38px;
+    z-index: 1;
+}
+.nav-link {
+    font-family: var(--babes);
+    font-size: 23.83px;
+    letter-spacing: 1px;
+    transition: all 0.1s;
+}
+.nav-link:hover { 
+    color: var(--red) !important;
+    border: 2px solid var(--defult_color);
+    border-radius: 15px;
+}
+.hero_title {
+    padding-bottom: 38px;
+}
+.hero_title h5 {
+    border: 2px dashed #3d2514;
+    display: inline-block;
+    font-size: 19.65px;
+    font-family: var(--babes);
+    padding: 3px 8px;
+}
+.hero_title h1 {
+    font-size: 98.3px;
+    font-family: var(--alfa);
+    text-shadow: 4px 4px 1px #ffffffcf;
+}
+.hero_title h3 {
+    font-size: 52.49px;
+    font-family: var(--alfa);
+    text-shadow: 3px 4px 1px #ffffffcf;
+}
+.hero_image {
+    position: relative;
+    margin-bottom: 54px;
+}
+.hero_image img {
+    margin-top: -96px;
+}
+.offer {
+    color: #fff;
+    background: var(--red);
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    padding: 10px;
+    position: absolute;
+    top: 261px;
+    left: 25px;
+    font-family: var(--babes);
+}
+.discount {
+    border: 2px dashed #fff;
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.discount h2 {
+    font-size: 44.84px;
+}
+.discount strong {
+    font-size: 32.37px;
+}
+.discount span {
+    font-size: 34.4px;
+    display: block;
+    letter-spacing: 3px;
+}
+.banner_area {
+    margin-bottom: 65px;
+}
+.Lbanner_image {
+    position: relative;
+}
+.banner_title {
+    color: #fff;
+    position: absolute;
+    top: 17px;
+    left: 26px;
+    font-family: var(--babes);
+}
+.banner_title h3 {
+    font-size: 24px;
+    margin: 0;
+}
+.banner_title h1 {
+    font-size: 34.67px;
+}
+.Rbanner_image {
+    flex-direction: column;
+}
+.class1 {
+    position: relative;
+}
+.class1_title {
+    position: absolute;
+    color: #fff;
+    font-family: var(--babes);
+    top: 14px;
+    left: 26px;
+}
+.class1_title h3 {
+    font-size: 21px;
+    margin: 0;
+}
+.class1_title h1 {
+    font-size: 34.66px;
+    margin: 0;
+}
+.class2 {
+    position: relative;
+}
+.class2_title {
+    position: absolute;
+    color: #fff;
+    top: 17px;
+    left: 26px;
+    font-family: var(--babes);
+}
+.class2_title h3 {
+    font-size: 22px;
+    margin: 0;
+}
+.class2_title h1 {
+    font-size: 34.66px;
+}
+.testy_burger {
+    margin-bottom: 65px;
+}
+.testy_burger_title h3 {
+    background-color: #ffc045;
+    display: inline-block;
+    padding: 12px;
+    font-size: 21px;
+    margin-bottom: 23px;
+    font-family: var(--babes);
+}
+.testy_burger_title h1 {
+    font-size: 47px;
+    font-family: var(--alfa);
+    margin-bottom: 28px;
+}
+.testy_burger_title p {
+    font-size: 14.67px;
+    padding: 0 59px;
+    font-family: var(--montsrrat);
+}
+.product_image img {
+    height: 225px;
+    object-fit: contain;
+}
+.product_title h1 {
+    font-size: 30.5px;
+    font-family: var(--babes);
+    margin-bottom: 7px;
+}
+.product_title p {
+    font-size: 14.67px;
+    margin-bottom: 11px;
+}
+.btn_custom {
+    font-family: var(--alfa);
+    letter-spacing: 1px;
+    font-size: 14.67px;
+    background-color: var(--red);
+    color: #fff;
+    padding: 7px 15px 4px;
+    border-radius: 0;
+}
+.btn_custom:hover {
+    color: #bf2222;
+    border: 2px solid #3d2514;
+    background-color: #fff;
+}
+.slider_area {
+    margin-top: 150px;
+    margin-bottom: 130px;
+}
+.carousel_title {
+    padding: 33px 0;
+}
+.carousel_title h3 {
+    letter-spacing: 2px;
+    margin-bottom: 2px;
+    font-size: 27.17px;
+    font-family: var(--babes);
+}
+.carousel_title h1 {
+    margin-bottom: 20px;
+    font-size: 38.47px;
+    font-family: var(--alfa);
+}
+.carousel_title p {
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-family: var(--montsrrat);
+}
+div#carouselExampleIndicators {
+    box-shadow: 7px 7px 9px 1px #120d0d85;
+    padding: 38px;
+}
+.carousel-indicators [data-bs-target].active {
+    width: 17px;
+    height: 17px;
+    border-radius: 100%;
+    background-color: #ffc045;
+}
+.carousel-indicators [data-bs-target] {
+    width: 17px;
+    height: 17px;
+    border-radius: 100%;
+    background-color: #dcdcdc;
+}
+.carousel-indicators {
+    justify-content: flex-start;
+    margin-bottom: 0rem;
+    margin-left: 3%;
+    margin-top: 0;
+}
+.reservation_area {
+    position: relative;
+}
+.booking h3 {
+    font-size: 27px
+}
+.booking h1 {
+    font-size: 47px;
+    margin-bottom: 54px;
+    font-weight: 600;
+}
+.form-control:focus {
+    border-color: var(--red);
+    box-shadow: none
+}
+.form-control {
+    font-weight: 500;
+}
+.btn_submit {
+    background-color: #bf2222;
+    color: #fff;
+    font-size: 16.83px;
+    letter-spacing: 2px;
+    font-family: var(--alfa);
+}
+.btn_submit:hover {
+    color: #bf2222;
+    border: 1px solid var(--defult_color);
+}
+.singel_Burger {
+    position: absolute;
+    top: -141px;
+    width: 222px;
+}
+.singel_bottol {
+    position: absolute;
+    z-index: -1;
+    top: 76px;
+    left: 81px;
+    width: 173px;
+    transform: rotate(15deg);
+}
+.plate {
+    position: absolute;
+    top: 159px;
+    right: 0px;
+    width: 200px;
+    z-index: -1;
+}
+.footer_part {
+    background-image: url(footer.png);
+    color: #fff;
+}
+.location {
+    align-items: center;
+    justify-content: center;
+}
+.location p {
+    margin: 0 0 0 17px;
+}
+.envelop {
+    align-items: center;
+    justify-content: center;
+}
+.envelop p {
+    margin: 0 0 0 17px;
+}
